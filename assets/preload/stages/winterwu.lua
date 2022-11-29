@@ -2,7 +2,7 @@ function onCreate()
 	-- background shit
 	makeLuaSprite('winterwu', 'winterwu', 100, 25);
 	setLuaSpriteScrollFactor('winterwu', 0.9, 0.9);	
-	addLuaSprite('winterwu', false);
+	addLuaSprite('winterwu', true);
 
 	close(true); --For performance reasons, close this script once the stage is fully loaded, as this script won't be used anymore after loading the stage
 end
